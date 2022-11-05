@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      #section1 {
+        background-color: blue;
+        height: 600px;
+        width: 100%;
+        padding: 10px;
+        background: url(./imagePath/photo-1497633762265-9d179a990aa6.webp);
+        background-repeat: no-repeat;
+        /* background-size: auto 1500px; */
+        /* background-size: 100%; */
+        background-size: cover;
+        background-position: center;
+      }
+
+      #section1 h1{
+        text-align: center;
+        color: white;
+      }
+
+      .main-header{
+       background-color: rgb(251, 10, 10);
+       padding:8px 14px;
+      }
+      /* #imp {
+        height: 300px;
+        width: 100%;
+      } */
+      .main-nav{
+        display:inline-block;
+        width: calc(100%-200px); 
+        text-align: right;
+      }
+      .main-nav__items{
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        
+      }
+      .main-nav__item {
+        display: inline-block;
+        margin: 0px 10px;
+      }
+      .main-nav__item a {
+        display: inline-block;
+        margin: 0px 10px;
+        text-decoration: none;
+        color: white;
+      }
+
+      .main-header__logo {
+        text-decoration: none;
+        color: rgb(246, 241, 241);
+        font-weight: bold;
+        font-size: 21px;
+      }
+
+      #section2{
+        background-color: red;
+        padding:10px ;
+        text-align: center;
+      }
+
+      #section2 h2{
+       color: white;
+        font-size: 30px;
+        font-weight: 100;
+    }
+    .col{
+        display: inline-block;
+        width: 30%;
+        padding: 30px;
+        margin: 20px;
+    }
+    .icon-box h3{
+        color: white;
+        font-size: 20px;
+    }
+
+    .icon-box i{
+        color: white;
+        
+    }
+
+    .col-2 {
+        display: inline-block;
+        width: 49%;
+        height: 300px;
+        background-color:rgb(18, 184, 159);
+        margin: 5px;
+    }
+
+    #features a{
+        background-color: white;
+        color: crimson;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 18px;
+        margin:50px 90px;
+        border: 3px solid red;
+        border-radius: 10px;
+
+
+    }
+    #features p{
+        margin-bottom: 20px;
+    }
+
+    .features-left{
+        padding: 20px;
+        vertical-align: top;
+        font-size: 15px;
+        background-color: yellow;
+    }
+
+    .features-right{
+        background-color: rgb(139, 139, 241);
+       padding: 20px;
+       vertical-align: top;
+       font-size: 15px;
+    }
+    #features a:hover{
+        background-color: crimson;
+        color: white;
+        border: 3px solid white;
+    }
+
+    </style>
+  </head>
+  <body>
+    <header class="main-header">
+      <a href="#" class="main-header__logo">Kitap Portalı</a>
+      <nav class="main-nav">
+        <ul class="main-nav__items">
+          <li class="main-nav__item"><a href="#">ana sayfa</a></li>
+          <li class="main-nav__item"><a href="#">kitaplar</a></li>
+          <li class="main-nav__item"><a href="#">hakkımızda</a></li>
+          <li class="main-nav__item"><a href="#">iletişim</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    
+      <section id="section1">
+        <h1>Kitap Portalına hoşgeldiniz</h1>
+      </section>
+      <section id="section2">
+        <div class="row">
+          <!--1.satır-->
+          <!-- <img
+            src="./imagePath/photo-1497633762265-9d179a990aa6.webp"
+            alt=""
+            id="imp"
+          /> -->
+          <h2>Nasıl çalışmaktayız?</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
+            reprehenderit libero officia possimus et doloremque perspiciatis
+            aliquam recusandae veniam, sapiente sed. Tempore voluptatibus quod
+            quis doloribus sint dolore quae ab?
+          </p>
+        </div>
+        <div class="row">
+          <!--2.satır-->
+          <div class="icon-box col">
+            <i class="fa-7x fa-sharp fa-solid fa-bicycle" ></i>
+            <h3>Sepete Ekle</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
+              consequuntur odio maxime obcaecati, saepe blanditiis nulla labore
+              quae? Error, itaque!
+            </p>
+
+          </div>
+          <div class="icon-box col">
+            <i class="fa-7x fa-sharp fa-solid fa-bicycle" ></i>
+
+            <h3>Okurken Heyecanlanacaksınız</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              molestiae consequatur dolore cumque eius soluta impedit voluptas
+              quisquam quibusdam dolorum!
+            </p>
+                       
+
+          </div>
+        </div>
+      </section>
+    </main>
+    <section id="features">
+      <div class="row">
+        <div class="col-2 features-left">
+          <h3>Kitap Ruhun Gıdası</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius non
+            molestiae reprehenderit quod architecto ut eos? Quia repellendus
+            aliquid eveniet, illum reiciendis, maxime, temporibus nostrum et
+            quos facilis error optio vero illo cupiditate veniam tempora quam
+            atque. Consequuntur adipisci soluta inventore blanditiis ab aliquam
+            optio, consectetur nam laboriosam sunt sapiente numquam iure non
+            esse atque magni! Eius, corrupti fugit sequi eos, eum blanditiis
+            illum libero odio ipsam deleniti non! Beatae?
+          </p>
+          <a href="#">Daha Fazlası İçin Tıklayınız...</a>
+        </div>
+        <div class="col-2 features-right">
+          <h3>Yakında Çıkacak Kitaplar</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
+            optio deserunt molestias. Consequuntur, ea. Omnis, impedit quidem
+            suscipit maxime nihil provident sed non? Explicabo dolore ratione
+            delectus nostrum natus quis non autem velit facere quia earum
+            voluptate ut vitae dignissimos assumenda quidem voluptas, aut quam,
+            adipisci, molestiae quisquam eaque reiciendis!
+          </p>
+          <a href="#">Takip Etmek için tıklayın.</a>
+        </div>
+      </div>
+    </section>
+    <main>
+  </body>
+</html>
